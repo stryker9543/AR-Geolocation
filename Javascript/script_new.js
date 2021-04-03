@@ -132,8 +132,8 @@ function renderPlaces(places) {
             }
         };
 
-        icon.addEventListener('click', clickListener);
+        placeText.addEventListener('click', clickListener);
 
-        scene.appendChild(icon);
+        scene.appendChild(placeText);
     });
 }
